@@ -35,15 +35,26 @@
 
 }
 
+.hero h2 {
+  font-size: xx-large;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.hero h3{
+  font-size: large;
+  font
+}
+
 .hero .experience{
     grid-row: 1/2;
     grid-column: 2/4;
 
-    width: 100%;
+    width: 160px;
     height: fit-content;
     background-color: var(--dark-color);
     color: var(--light-color);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 2rem;
     margin-top: 15vh;
 
@@ -97,11 +108,35 @@ form {
   
   fieldset {
     border: none;
-    padding: 2rem 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
   }
-  fieldset li{
-    list-style: none;
-    gap:10%;
+
+  fieldset,p{
+    display: inline;
+    padding: 10px;
+    
+  }
+
+  .submit-button{
+    padding: 0.5em;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    gap: 50px;
+
+    text-decoration: none;
+    text-align: center;
+
+    background-color: var(--brand-color);
+    color: var(--light-color);
+    
+    font-weight: 500;
+    
+    
   }
 
 
