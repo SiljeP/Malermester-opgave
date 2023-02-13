@@ -34,12 +34,11 @@ header {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    position: sticky;
     box-shadow: -1px 17px 29px -5px rgba(161,149,149,0.5);
   }
 
   .logo-header{
-    height: 100px;
+    height: 50px;
     width: 100px;
     object-fit:contain;
   }
