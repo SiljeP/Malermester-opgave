@@ -1,0 +1,103 @@
+
+/*I denne CSS er der alt der omhandler body og header*/
+
+
+:root{
+    --brand-color: #FFC929;
+    --dark-color: #155E75;
+    --mid-color: #E5E7EB;
+    --light-color: #F8FAFC;
+
+    --base-font: 'Synonym', sans-serif;
+    --accent-font:'Amulya', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*I denne CSS er der alt der omhandler body og header*/
+body {
+    background-image: var(--mid-color);
+    font-family: var(--base-font);
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: var(--color-dark);
+  }
+
+/* Alt der omhandler header */ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    box-shadow: -1px 17px 29px -5px rgba(161,149,149,0.5);
+  }
+
+  .logo-header{
+    height: 100px;
+    width: 100px;
+    object-fit:contain;
+  }
+  nav{
+    width: 100%;
+    min-height: 10vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+    font-size: large;
+    font-weight: 900;
+    
+  }
+  ul {
+    list-style: none;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .list-item a:hover{
+    color: var(--brand-color);
+  }
+
+  .list-item a{
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--dark-color);
+    font-family: var(--accent-font);
+  }
+
+  .nav-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+ .nav-button{
+    padding: 0.7em;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+
+    text-decoration: none;
+    text-align: center;
+
+    background-color: var(--brand-color);
+    color: var(--light-color);
+    font-size: large;
+    font-weight: 700;
+  }
+  .nav-button:hover{
+    background-color: var(--dark-color);
+  }
+

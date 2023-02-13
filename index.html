@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malermester Madsen</title>
+    <!-- Internal CSS files -->
+    <link rel="stylesheet" href="style.css"> <!--Body & Header-->
+    <link rel="stylesheet" href="hero.css">  <!--Hero'en inklusiv udfyldelsesform-->
+    <link rel="stylesheet" href="cards.css"> <!--Prisliste cards og anmeldse cards-->
+
+    <!-- External CSS files -->
+    <link href="https://api.fontshare.com/v2/css?f[]=amulya@700,1,400,500&f[]=synonym@600,500,1,700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0">
+
+</head>
+<body>
+   <header class="site-header">
+    <nav class="site-nav">
+    <img class="logo-header" src="./images/logo.png" alt="Malermester Madsen logo. Firmanavn med gul malerklat bagved.">
+         <ul>
+            <li class="list-item"><a href="#">Hjem</a></li>
+            <li class="list-item"><a href="#">Få tilbud</a></li>
+            <li class="list-item"><a href="#">Priser</a></li>
+            <li class="list-item"><a href="#">Produkter</a></li>
+            <li class="list-item"><a href="#">Kontakt</a></li>
+            <a href="#" class="nav-button">Få et tilbud</a>
+        </ul>
+    </nav>
+</header> 
+ 
+<div class="hero">
+    <img src="images/worker.jpg" alt="Maler klædt i hvidt der spatler loftet">
+    <section>
+        <h2>Malermester Madsen</h2>
+        <h3>Specialist i indendørs maling</h3>
+        <p> dolor sit amet consectetur adipisicing elit. Fugiat aspernatur sunt voluptatem, ullam magnam vel repellendus aliquid maiores placeat explicabo veritatis corporis fugit laudantium inventore dolore et? Soluta, enim architecto</p>
+    </section>
+
+    <p class="experience"><span>10+</span>års erfaring</p>
+    <img class="img-waves" src="./images/waves.png"alt="grafiske bølger der bliver brugt som design element">
+</div>
+
+<section>
+    <form action="#">
+        <fieldset>
+        <label for="name">Navn<input id="name" name="name" type="text" required /></label>
+        <label for="phone">Telefon <input id="phone" name="phone" type="tel" required /></label>
+        <label for="email">Email <input id="email" name="email" type="email" required /></label>
+        <input type="submit" value="send" />
+    </fieldset>
+    </form>
+</section>
+
+
+
+    <!-- ANMELDELSER HER -->
+    <div class="cards">
+    <section>
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
+    
+            <span class="material-symbols-outlined">
+                star
+                star
+                star
+                star
+                star
+                </span>
+
+    </section>
+    <section>
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
+    
+            <span class="material-symbols-outlined">
+                star
+                star
+                star
+                star
+                star
+                </span>
+
+    </section>
+
+    <section>
+        <h3>Lorem Ipsum Dolor</h3>
+        <!-- Tips option + z for at samle teksten paa flere linjer i stedet for en lang -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
+    
+            <span class="material-symbols-outlined">
+                star
+                star
+                star
+                star
+                star
+                </span>
+    </section>
+</div>
+   
+    
+
+
+
+
+   
+</body>
+</html>
