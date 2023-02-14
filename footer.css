@@ -1,0 +1,10 @@
+footer{
+    background-color: var(--mid-color);
+}
+
+footer img{
+    height: 100px;
+    width: 150px;
+    object-fit:contain;
+
+}
