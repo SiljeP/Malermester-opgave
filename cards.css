@@ -1,7 +1,10 @@
-.cards{
+/* Prisliste her */
+
+.cards-price{
     width: 100%;
     padding: 8vh 0;
-    /* you can yse padding as a shortcut for all direction  - think like a clock : top - right - bottom - left */
+    
+    
     background: var(--mid-color);
     display: flex;
     flex-wrap: wrap;
@@ -10,15 +13,90 @@
     
     }
 
-    .cards section:hover{
+    .cards-price section:hover{
         transform: scale(1.1)
     }
 
-.cards section{
+.cards-price section{
     flex:0 1 300px;
     align-self: stretch;
 
+    display: flex;
+    flex-direction: column;
+
     background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.7);
+    
+    padding: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+/* Teksten indeni prisliste styling herunder */
+
+.cards-price h3{
+    color: var(--brand-color);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.cards-price .kvm {
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+}
+
+.li-lorem {
+list-style: none;
+font-weight: 500;
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.cards-price .p-pris{
+    text-align: right;
+    font-size: x-large;
+    font-weight: 600;
+    color: var(--dark-color);
+    line-height: 0;
+    
+}
+
+.cards-price .mindste-pris{
+    font-size: x-small;
+    font-style: italic;
+    text-align: right;
+    line-height: 0;
+}
+
+/*anmeldelser her*/
+.cards-review{
+    width: 100%;
+    padding: 8vh 0;
+    
+    background: var(--mid-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem; 
+    justify-content: center;
+    
+    }
+
+    .cards-price section:hover{
+        transform: scale(1.1)
+    }
+
+.cards-review section{
+    flex:0 1 300px;
+    align-self: stretch;
+    height: 300px;
+
+    background: var(--light-color);
+    text-align: left;
 
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.7);
@@ -28,11 +106,25 @@
 
 }
 
-.cards p{
-    font-size: small;
-    margin:1.5rem 0;
+.cards-review h3{
+    color: var(--dark-color);
+    font-weight: 500;
+    text-align: left;
+    padding: 3%;
+}
+
+.cards-review li{
+    font-size: x-small;
+    list-style: none;
+    padding: 3%;
+    
 
 }
-.material-symbols-outlined{
-    color: goldenrod;
+.material-symbols-outlined.star{
+    color: var(--brand-color);
+    text-align: center;
+    padding-top: 10%;
+    font-size: medium;
+    width: 100%;
+    
 }

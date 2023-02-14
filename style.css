@@ -57,7 +57,7 @@ header {
     font-weight: 900;
     
   }
-  ul {
+ .nav-ul {
     list-style: none;
     
     display: flex;

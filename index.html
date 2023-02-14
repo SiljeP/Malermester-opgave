@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css"> <!--Body & Header-->
     <link rel="stylesheet" href="hero.css">  <!--Hero'en inklusiv udfyldelsesform-->
     <link rel="stylesheet" href="cards.css"> <!--Prisliste cards og anmeldse cards-->
+    <link rel="stylesheet" href="sections.css"> <!--Sections m bæredygtigdesign og hvide vægge starter her-->
 
     <!-- External CSS files -->
     <link href="https://api.fontshare.com/v2/css?f[]=amulya@700,1,400,500&f[]=synonym@600,500,1,700,400&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
    <header class="site-header">
     <nav class="site-nav">
     <img class="logo-header" src="./images/logo.png" alt="Malermester Madsen logo. Firmanavn med gul malerklat bagved.">
-         <ul>
+         <ul class="nav-ul">
             <li class="list-item"><a href="#">Hjem</a></li>
             <li class="list-item"><a href="#">Få tilbud</a></li>
             <li class="list-item"><a href="#">Priser</a></li>
@@ -35,7 +36,7 @@
     <section>
         <h2>Malermester Madsen</h2>
         <h3>Specialist i indendørs maling</h3>
-        <p> dolor sit amet consectetur adipisicing elit. Fugiat aspernatur sunt voluptatem, ullam magnam vel repellendus aliquid maiores placeat explicabo veritatis corporis fugit laudantium inventore dolore et? Soluta, enim architecto</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur sunt voluptatem, ullam magnam vel repellendus aliquid maiores placeat explicabo veritatis corporis fugit laudantium inventore dolore et? Soluta, enim architecto</p>
     </section>
 
     <p class="experience"><span>10+</span>års erfaring</p>
@@ -55,14 +56,99 @@
     </fieldset>
     </form>
 </section>
+    <!-- PRISLISTER HER -->
+    <div class="cards-price">
+        <section>
+            <h3>Basis</h3>
+            <p class="kvm">Mindre end 50 kvm</p>
+            <ul class="li-lorem">
+                <li>Lorem ipsum</li>
+                <li>dolor sit amet</li>
+                <li>consectetur</li>
+                <li>adipisicing elit.</li>
+            </ul>
+            <p class="p-pris">400kr</p>
+            <p class="mindste-pris">Alle priser er mindstepris pr.time</p>
+        
+        </section>
+        <section>
+            <h3>Standard</h3>
+            <p class="kvm">50 kvm til 300kvm</p>
+            <ul class="li-lorem">
+                <li>Lorem ipsum</li>
+                <li>dolor sit amet</li>
+                <li>consectetur</li>
+                <li>adipisicing elit.</li>
+            </ul>
+    
+            <p class="p-pris">300kr</p>
+            <p class="mindste-pris">Alle priser er mindstepris pr. time</p>
+    
+        </section>
+   
+        <section>
+            <h3>Erhverv</h3>
+            <p class="kvm">For erhverv større end 100kvm</p>
+            <ul class="li-lorem">
+                <li>Lorem ipsum</li>
+                <li>dolor sit amet</li>
+                <li>consectetur</li>
+                <li>adipisicing elit.</li>
+            </ul>
+            <p class="p-pris">200kr</p>
+            <p class="mindste-pris">Alle priser er mindstepris pr. time</p>
+            
+        </section>
+    </div>
 
+<!-- BÆREDYGTIG DESIGN SEKTION -->
 
+<section class="sus-maling">
+    <h2>100% bæredygtigt maling</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sint nostrum voluptates aliquam expedita nesciunt id nam nihil impedit harum! Minus maiores culpa quo est quibusdam natus repellat perferendis quia rem quas dolores incidunt libero, nisi, modi ipsam illum. Recusandae neque quas magni libero officiis eius delectus natus expedita nam?</p>
+    <h3>Få et tilbud allerede i dag</h3>
+    <ul class="sus-maling-li">
+        <li>Maling af loft</li>
+        <li>Maling af vægge</li>
+        <li>Pudsning af vægge</li>
+        <li>Maling af gulv</li>
+    </ul>
+</section>
+
+<!-- HVIDE VÆGGE STARTER HER SEKTION -->
+<section class="white-walls">
+    <h2>Hvide vægge starter her</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus architecto quo esse commodi quam officiis autem veritatis, temporibus voluptates, est veniam debitis, optio molestias ut. Repellendus dignissimos voluptate beatae.</p>
+    <h3>ring</h3>
+    <h3 class="tlf-nummer">+45 0000 0000</h3>
+</section>
 
     <!-- ANMELDELSER HER -->
-    <div class="cards">
+    <div class="cards-review">
     <section>
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
+        <h3>John Doe - Køge</h3>
+        <ul class="review-li">
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+        </ul>
+    
+    
+            <span class="material-symbols-outlined star">
+                star
+                star
+                star
+                star star
+                </span>
+
+    </section>
+    <section>
+        <h3>John Doe - Køge</h3>
+        <ul class="review-li">
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+        </ul>
     
             <span class="material-symbols-outlined">
                 star
@@ -73,24 +159,15 @@
                 </span>
 
     </section>
+
     <section>
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
+        <h3>John Doe - Køge</h3>
+        <ul class="review-li">
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere.</li> 
+        </ul>
     
-            <span class="material-symbols-outlined">
-                star
-                star
-                star
-                star
-                star
-                </span>
-
-    </section>
-
-    <section>
-        <h3>Lorem Ipsum Dolor</h3>
-        <!-- Tips option + z for at samle teksten paa flere linjer i stedet for en lang -->
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque fugit suscipit facere? Quam nihil rem cum, odio in delectus, sint labore eum et impedit facilis nesciunt magni nulla?</p>
     
             <span class="material-symbols-outlined">
                 star
