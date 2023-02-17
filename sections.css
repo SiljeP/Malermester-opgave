@@ -57,3 +57,74 @@
     line-height: 0;
 }
 
+/* RESPONSIVE DESIGN HERUNDER */
+
+@media screen and (max-width: 600px){
+    .sus-maling{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top:15%;
+        padding-bottom: 15%;
+}
+    .sus-maling h2{
+        font-size: x-large;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+    .sus-maling p {
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .sus-maling h3{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        line-height: normal;
+        padding: 5%;
+        margin:auto;
+    }
+
+    .sus-maling .sus-maling-li{
+        padding: 0;
+        margin: auto;
+        font-weight: 300;
+        
+    }
+/* hvide vægge */
+
+    .white-walls{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:15%;
+}
+    .white-walls h2{
+        font-size: x-large;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 5%;
+        line-height: normal;
+    }
+    .white-walls p {
+        text-align: center;
+        font-weight: 300;
+        padding-bottom: 5%;
+    }
+
+    .white-walls h3{
+     
+        padding: 0;
+        margin:auto;
+    }
+
+    .white-walls .tlf-nummer{
+        margin:auto;
+        padding-bottom: 15%;
+    }
+
+}

@@ -35,6 +35,15 @@ header {
     align-items: center;
     overflow: hidden;
     box-shadow: -1px 17px 29px -5px rgba(161,149,149,0.5);
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    
+    width: 100%;
+    z-index: 10;
+    background-color: var(--light-color);
   }
 
   .logo-header{
@@ -44,14 +53,11 @@ header {
   }
   nav{
     width: 100%;
-    min-height: 10vh;
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem;
 
     font-size: large;
     font-weight: 900;
@@ -68,11 +74,11 @@ header {
 
   .list-item a:hover{
     color: var(--brand-color);
+    text-decoration: none;
   }
 
   .list-item a{
     text-decoration: none;
-    padding: 1rem;
     color: var(--dark-color);
     font-family: var(--accent-font);
   }
@@ -98,5 +104,82 @@ header {
   }
   .nav-button:hover{
     background-color: var(--dark-color);
+    color: var(--light-color);
+    text-decoration: none;
   }
 
+  /* RESPONSIVNESS TIL MOBILDESIGN HERUNDER */
+
+  nav{
+    width: 100%;
+    
+    box-shadow: 0 3px rgba(60, 60, 60, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+    font-size: large;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+nav ul{
+    list-style: none;
+
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+  nav label, nav input{
+    display: none;
+
+}
+
+
+@media screen and (max-width: 600px){
+
+  header{
+    height: fit-content;
+  }
+ 
+    .nav-ul{
+        display: none;
+    }
+    nav label{
+        display: block;
+        padding: 0 1rem;
+
+    }
+
+    nav label:hover{
+        cursor:pointer;
+    }
+    nav input:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        text-align: center;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .logo-header{
+      height: 100px;
+       width: 150px;
+       object-fit:contain;
+       
+      
+    }
+}

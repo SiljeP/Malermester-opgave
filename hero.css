@@ -7,8 +7,10 @@
 
     width: 100%;
     height: 100vh;
+
    
     overflow: hidden;
+    padding-top: 5%;
 }
 
 /* object posistion hvis der er problemer med mandens billede */
@@ -42,6 +44,8 @@
   font-weight: 700;
   color: var(--dark-color);
   line-height: 0;
+
+  padding-top: 15%;
 }
 
 .hero h3{
@@ -55,7 +59,7 @@
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-
+  
 }
 
 
@@ -150,37 +154,77 @@ form {
     font-weight: 500;
   }
 
-
-/*
-@media screen and (max-width: 850px){
-    .hero img:last-of-type{
-        grid-row: 2/3;
-        overflow-y: hidden;
-
-    }
-
-}
     
 @media screen and (max-width:600px){
     .hero{
-        height: 90vh;
+        height: 50vh;
+        margin-top: 100px;
+        padding-top: 0;
+        
     }
     .hero img:first-of-type{
         grid-column: 1/5;
+        
+        
+  
     }
   .hero .experience{
     display: none;
   }  
+  .hero h2{
+font-size: x-large;
+}
+  .hero h3{
+  font-weight: 700;
+  font-size: small;
+} 
+.hero p{
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-align: center;
+  font-size: small;
 
+}
   .hero section {
     grid-column: 1/5;
 
-    color: var(--light-color);
-    text-shadow: 0 0 10px rgba(0,0,0,0.8)
+    color: var(--dark-color);
+    font-size: x-small;
+    text-shadow: 0 0 5px rgba(0,0,0,0.8)
   }
 
   .hero img:last-of-type{
     grid-row: 2/3;
   }
-}*/
+
+  form, fieldset{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin:auto;
+    padding-left: 1rem;
+    border: none;
+
+    
+  }
+  form, fieldset, p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: auto;
+    padding: 0% 0% 0 1%;
+   
+   
+  }
+  .submit-button{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 42%;
+    align-items: center;
+  }
+}
+
+
+
 

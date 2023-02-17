@@ -35,5 +35,40 @@ footer li{
 
    padding: 4%;
 }
-   
 
+/* RESPONSIVE DESIGN HERUNDER */
+
+@media screen and (max-width: 600px){
+    
+    .footer-img{
+        align-items: center;
+        transform: translateX(0px);
+    }
+    footer{   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+ 
+   .footer-opening, .footer-products, .footer-contact, .footer-quality{   
+        text-align: center;
+        padding: 5% 0;
+        margin: auto;
+      
+}
+    .footer-opening-li, .footer-products-li, .footer-contact-li, .footer-quality-li{
+        text-align: center;
+        margin: auto;
+    
+}
+    .footer-some{
+        text-align: center;
+        margin: auto;
+
+}
+
+
+}
+    
